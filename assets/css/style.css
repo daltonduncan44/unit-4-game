@@ -1,4 +1,36 @@
-.jumbotron jumbotron-fluid {
-    background-color: aqua;
+h2 {
+    margin: 0pc 0pc 0pc 2pc;
+    background-color: white;
+    padding: 1pc 2pc;
+}
+h1 {
+    margin: 0pc 0pc 0pc 0pc;
+}
+#mindStoneImg{
+    margin: 0pc 0pc 0pc 26pc;
+    border-color: white;
+    border: 5pc;
+}
 
+#powerStoneImg{
+    margin: 0pc 0pc 0pc 2pc;
+}
+#spaceStoneImg{
+    margin: 0pc 0pc 0pc 2pc;
+}
+
+#timeStoneImg{
+    margin: 0pc 0pc 0pc 2pc; 
+}
+
+#goalNumber{
+    margin: 0pc 0pc 0pc 0pc;
+
+    
+}
+.container-fluid {
+    background-image: url(../images/spacee-2060x1288.jpg);
+    height: 880px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
