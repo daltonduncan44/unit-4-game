@@ -37,7 +37,7 @@ function reset() {
     finalScore = 0;
     $(".goalNumBox").html(randNum);
     $(".score").html(finalScore);
-    start();
+   
 
 }
 
