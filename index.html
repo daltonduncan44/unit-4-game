@@ -5,16 +5,14 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
         crossorigin="anonymous">
     <script src="assets/javascript/game.js"></script>
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -25,65 +23,67 @@
                 <h1 class="display-4">Perfect Balance</h1>
                 <p class="lead">Use the Stones to increase Balance till it matches perfectly with out going over!</p>
                 <p class="lead">Wins:
-                    <div id="win">0</div>
+                    <div class="win">0</div>
                 </p>
                 <p class="lead">Loses:
-                    <div id="loss">0</div>
+                    <div class="loss">0</div>
                 </p>
             </div>
         </div>
         <div class="row">
+            <div id="goalNumBox"></div>
             <div class="coll-lg-2">
                 <h2>Goal number</h2>
             </div>
             <div class="coll-lg-2">
-<h2 class=scoreDisplayChild></h2>
-</div>
 
-
-            </div>
-            <div class id="mindStoneImg">
-                <div class="coll-lg-2">
-                    <div type="button" class="box b1 crystal1" value="1">
-                        <img src="assets/images/mind stone.jpg" class="rounded float-right" alt="the mind stone">
-                    </div>
-                </div>
-            </div>
-            <div class id="powerStoneImg">
-                <div class="coll-lg-2">
-                    <div type="button" class="box b2 crystal2" value="2">
-                        <img src="assets/images/power stone.jpg" class="rounded float-right" alt="the power stone">
-                    </div>
-                </div>
-            </div>
-            <div class id="spaceStoneImg">
-                <div class="coll-lg-2">
-                    <div type="button" class="box b4 crystal4" value="4">
-                        <img src="assets/images/space stone.jpg" class="rounded float-right" alt="the space strone">
-                    </div>
-                </div>
-            </div>
-            <div class id="timeStoneImg">
-                <div class="coll-lg-2">
-                    <div type="button" class="box b4 crystal4" value="4">
-                        <img src="assets/images/time stone.jpg" class="rounded float-right" alt="the time strone">
-                    </div>
-                </div>
+                <h2 class="ranNumBox"></h2>
             </div>
         </div>
-        <div class="row">
-            <div class="coll-lg-2">
-                <h2>Your number</h2>
+
+    </div>
+    <div class id="mindStoneImg">
+        <div class="coll-lg-2">
+            <div type="button" class="box b1 crystal1" value="1">
+                <img src="assets/images/mind stone.jpg" class="rounded float-right" alt="the mind stone">
             </div>
-            <div class="coll-lg-2">
-                <div class id="yourNumber">
-                    <h2>000 </h2>
-                </div>
-
-
-
-
+        </div>
+    </div>
+    <div class id="powerStoneImg">
+        <div class="coll-lg-2">
+            <div type="button" class="box b2 crystal2" value="2">
+                <img src="assets/images/power stone.jpg" class="rounded float-right" alt="the power stone">
             </div>
+        </div>
+    </div>
+    <div class id="spaceStoneImg">
+        <div class="coll-lg-2">
+            <div type="button" class="box b3 crystal4" value="4">
+                <img src="assets/images/space stone.jpg" class="rounded float-right" alt="the space strone">
+            </div>
+        </div>
+    </div>
+    <div class id="timeStoneImg">
+        <div class="coll-lg-2">
+            <div type="button" class="box b4 crystal4" value="4">
+                <img src="assets/images/time stone.jpg" class="rounded float-right" alt="the time strone">
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="row">
+        <div id="yourNumBox">
+        <div class="coll-lg-2">
+            <h2>Your number</h2>
+        </div>
+        <div class="coll-lg-2">
+                <h2class="scoreDisplayChild"></h2>
+            </div>
+        </div>
+
+
+
+        </div>
 
 
 
