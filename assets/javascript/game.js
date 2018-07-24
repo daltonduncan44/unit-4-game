@@ -55,20 +55,20 @@ function start()
 
     // stones need the values
     $(".button1").attr("value", crys1);
-    var test = $(".button1").attr("value");
-    console.log(".button1" + test);
+    var test1 = $(".button1").attr("value");
+    console.log(".button1 " + test1);
 
     $(".button2").attr("value", crys2);
-    var test = $(".crystal2").attr("value");
-    console.log(".button2  " + test);
+    var test2 = $(".button2").attr("value");
+    console.log(".button2  " + test2);
 
     $(".button3").attr("value", crys3);
-    var test = $(".button3").attr("value");
-    console.log(".button3  " + test);
+    var test3 = $(".button3").attr("value");
+    console.log(".button3  " + test3);
 
     $(".button4").attr("value", crys4);
-    var test = $(".button4").attr("value");
-    console.log(".button4  " + test);
+    var test4 = $(".button4").attr("value");
+    console.log(".button4  " + test4);
     //saved to score
     $(".img").on("click", function () 
     {
