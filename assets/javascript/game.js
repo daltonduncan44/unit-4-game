@@ -31,8 +31,8 @@ function reset() {
      crys3 = Math.floor(Math.random() * (12 - 1) + 1);
      crys4 = Math.floor(Math.random() * (12 - 1) + 1);
     finalScore = 0;
-    $(".ranNumBox").html(randNum);
-    $(".scoreDisplayChild").html(finalScore);
+    $(".goalNumBox").html(randNum);
+    $(".score").html(finalScore);
     start();
 
 }
@@ -46,25 +46,25 @@ function start()
      crys3 = Math.floor(Math.random() * (12 - 1) + 1);
      crys4 = Math.floor(Math.random() * (12 - 1) + 1);
     finalScore = 0;
-    $(".ranNumBox").html(randNum);
-    $(".scoreDisplayChild").html(finalScore);
+    $(".goalNumBox").html(randNum);
+    $(".score").html(finalScore);
 
     // stones need the values
-    $(".crystal1").attr("value", crys1);
-    var test = $(".crystal1").attr("value");
-    console.log(".crystal1" + test);
+    $(".button1").attr("value", crys1);
+    var test = $(".button1").attr("value");
+    console.log(".button1" + test);
 
-    $(".crystal2").attr("value", crys2);
+    $(".button2").attr("value", crys2);
     var test = $(".crystal2").attr("value");
-    console.log(".crystal2  " + test);
+    console.log(".button2  " + test);
 
-    $(".crystal3").attr("value", crys3);
-    var test = $(".crystal3").attr("value");
-    console.log(".crystal3  " + test);
+    $(".button3").attr("value", crys3);
+    var test = $(".button3").attr("value");
+    console.log(".button3  " + test);
 
-    $("index.html.crystal4").attr("value", crys4);
-    var test = $(".crystal4").attr("value");
-    console.log(".crystal4  " + test);
+    $(".button4").attr("value", crys4);
+    var test = $(".button4").attr("value");
+    console.log(".button4  " + test);
     //saved to score
     $(".box").on("click", function () 
     {
@@ -72,20 +72,20 @@ function start()
         finalScore = parseInt(finalScore) + parseInt(test1);
         console.log("finalScore,  " + finalScore);
         console.log("sone, " + test1);
-        $(".yourNumber").html(finalScore);
+        $(".score").html(finalScore);
 
         if (randNum === finalScore) {
             alert("Winner!");
             win++;
             $(".win").html(win);
-            $(".scoreDisplayChild").html(0);
+            $(".score").html(0);
             reset();
         }
         else if (finalScore > randNum) {
             alert("Booooo passed the goal");
             loss++;
             $(".loss").html(win);
-            $(".scoreDisplayChild").html(0);
+            $(".score").html(0);
             reset();
         }
 
