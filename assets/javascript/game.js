@@ -72,10 +72,10 @@ function start()
     //saved to score
     $(".img").on("click", function () 
     {
-        var test1 = $(this).attr("value");
-        finalScore = parseInt(finalScore) + parseInt(test1);
+        var test5 = $(this).attr("value");
+        finalScore = parseInt(finalScore) + parseInt(test5);
         console.log("finalScore,  " + finalScore);
-        console.log("sone, " + test1);
+        console.log("sone, " + test5);
         $(".score").html(finalScore);
 
         if (randNum === finalScore) {
