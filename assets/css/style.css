@@ -7,7 +7,7 @@ h1 {
     margin: 0pc 0pc 0pc 0pc;
 }
 #mindStoneImg{
-    margin: 0pc 0pc 0pc 26pc;
+    margin: -27pc 0pc 0pc 26pc;
     border-color: white;
     border: 5pc;
 }
@@ -33,4 +33,10 @@ h1 {
     height: 880px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#yourNumBox{
+margin: 0pc 0pc 0pc 37pc;
+
+
 }
