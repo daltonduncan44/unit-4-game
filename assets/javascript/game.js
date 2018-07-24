@@ -1,3 +1,7 @@
+// A $( document ).ready() block.
+$( document ).ready(function() {
+    console.log( "ready!" );
+
 // set up values
 var win = 0;
 var loss = 0;
@@ -66,7 +70,7 @@ function start()
     var test = $(".button4").attr("value");
     console.log(".button4  " + test);
     //saved to score
-    $(".box").on("click", function () 
+    $(".img").on("click", function () 
     {
         var test1 = $(this).attr("value");
         finalScore = parseInt(finalScore) + parseInt(test1);
@@ -94,4 +98,4 @@ function start()
      });
   }
 start();
-
+});
